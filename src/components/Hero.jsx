@@ -20,7 +20,9 @@ const Hero = () => {
           </p>
 
           <div className="">
-            <Button className="rounded-full w-auto px-16 py-6">Shop Now</Button>
+            <Button className="rounded-full w-auto bg-black px-16 py-6">
+              Shop Now
+            </Button>
           </div>
           <div className="flex flex-row items-center justify-between gap-8 mt-12 w-full">
             <article className="w-full border-r-[2px]">
@@ -36,6 +38,48 @@ const Hero = () => {
               <p className="text-base font-light">Happy Customers</p>
             </article>
           </div>
+        </div>
+      </div>
+      <div className="w-full flex items-center justify-between p-2 gap-6 h-28 bg-black">
+        <div className="relative h-9 w-full">
+          <Image
+            src="/logo_1.png"
+            alt=""
+            fill
+            style={{ objectFit: "contain" }}
+          />
+        </div>
+        <div className="relative h-9 w-full">
+          <Image
+            src="/logo_2.png"
+            alt=""
+            fill
+            style={{ objectFit: "contain" }}
+          />
+        </div>
+        <div className="relative h-9 w-full">
+          <Image
+            src="/logo_3.png"
+            alt=""
+            fill
+            style={{ objectFit: "contain" }}
+          />
+        </div>
+        <div className="relative h-9 w-full">
+          <Image
+            src="/logo_4.png"
+            alt=""
+            fill
+            style={{ objectFit: "contain" }}
+          />
+        </div>
+        <div className="relative h-9 w-full">
+          <Image
+            src="/logo_5.png"
+            alt=""
+            fill
+            style={{ objectFit: "contain" }}
+          />
         </div>
       </div>
     </div>
