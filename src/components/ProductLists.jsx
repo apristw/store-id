@@ -1,6 +1,3 @@
-import Image from "next/image";
-import React from "react";
-import { BiSolidStar } from "react-icons/bi";
 import CardProduct from "./CardProduct";
 import { Button } from "./ui/button";
 
@@ -22,7 +19,6 @@ const ProductList = ({ title }) => {
           View All
         </Button>
       </div>
-      <hr className="w-full mt-16" />
     </div>
   );
 };
