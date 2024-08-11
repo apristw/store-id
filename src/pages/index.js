@@ -4,6 +4,7 @@ import ProductList from "@/components/ProductLists";
 import CategoryProduct from "@/components/CategoryProduct";
 import Testimonial from "@/components/Testimonial";
 import CardCarousel from "@/components/CardCarousel";
+import Banner from "@/components/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ProductList title="Top Selling" />
       <CategoryProduct />
       <Testimonial />
+      <Banner />
     </main>
   );
 }
