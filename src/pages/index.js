@@ -5,6 +5,7 @@ import CategoryProduct from "@/components/CategoryProduct";
 import Testimonial from "@/components/Testimonial";
 import CardCarousel from "@/components/CardCarousel";
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
       <CategoryProduct />
       <Testimonial />
       <Banner />
+      <Footer />
     </main>
   );
 }

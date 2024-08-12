@@ -1,11 +1,10 @@
 import React from "react";
 import { GoMail } from "react-icons/go";
-import InputSearch from "./InputSearch";
 import { Button } from "./ui/button";
 
 const Banner = () => {
   return (
-    <div className="max-w-[1240px] w-full mx-auto flex flex-row mt-10 border-2 rounded-3xl py-10 px-16 bg-black ">
+    <div className="relative max-w-[1240px] w-full mx-auto flex flex-row z-50 mt-10 border-2 rounded-3xl py-10 px-16 bg-black ">
       <div className="w-[55%] px-5">
         <p className="text-[40px] text-white font-black leading-none">
           STAY UPTO DATE ABOUT OUR LATEST OFFERS
