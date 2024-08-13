@@ -1,10 +1,12 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
 
 const CardProduct = () => {
+  const router = useRouter();
   return (
-    <div className="w-auto">
+    <div className="w-auto" onClick={() => router.push("/singlepage")}>
       <div className="relative h-72 w-72 rounded-2xl overflow-hidden mb-4">
         <Image src="/image7.png" fill style={{ objectFit: "contain" }} alt="" />
       </div>
